@@ -1,0 +1,10 @@
+name: "Joke Action"
+descrption: "Fetches a random joke and expose it as a output"
+
+outputs:
+  joke:
+    description: "The fetched joke text"
+
+runs: 
+  using: node24 
+  main: dist/index.js
