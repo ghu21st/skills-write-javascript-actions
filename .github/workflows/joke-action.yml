@@ -4,7 +4,7 @@ run-name: Dad Jokes for issue ${{ github.event.issue.number }} by ${{ github.eve
 on:
   issue_comment:
     types: [created]
-  workflow_dispatch: 
+  #workflow_dispatch: 
 
 permissions:
   issues: write
